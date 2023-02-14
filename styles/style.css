@@ -1,6 +1,6 @@
 * {
     margin: 0;
-
+    font-family: 'Open Sans', sans-serif;
 }
 
 .btn-primary {
@@ -57,7 +57,9 @@
     gap: 87px;
 }
 
-.confess-img {}
+.confess-img {
+    margin-top: 130px;
+}
 
 .confess-elements {
     display: flex;
@@ -76,4 +78,20 @@
     font-size: 16px;
     margin: 20px 0;
     line-height: 20px;
+}
+
+.confess-elements ul {
+    width: 100%;
+    margin: 0;
+    padding: ;
+}
+
+.li-items {
+    list-style: none;
+    width: 100%;
+    color: #444343;
+}
+
+.check-color {
+    color: #16D887;
 }
