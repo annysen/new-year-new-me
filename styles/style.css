@@ -141,5 +141,28 @@
 }
 
 .main-banner-container {
-    background: #16D887;
+    /* background: #16D887; */
+    width: 75%;
+    background-image: url("../images/watch.png"), linear-gradient(to right, rgb(18, 85, 231), rgb(85, 82, 82));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    height: 300px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.main-banner {
+    margin-left: 60px;
+    /* justify-content: center; */
+
+
+}
+
+.main-banner-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
 }
